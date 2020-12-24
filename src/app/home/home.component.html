@@ -1,0 +1,12 @@
+<title>home</title>
+<p>home works!</p>
+<div class="container" *ngFor="let prod of gun">
+    <ul class="list">
+        <li class="names">{{prod.name}}</li>
+        <li> <img [src]="prod.imgURL" alt="/" /></li>
+        <li>{{prod.price}}</li>
+        <li>{{prod.status}}</li>
+     </ul>
+    </div>
+     <router-outlet></router-outlet>
+     
