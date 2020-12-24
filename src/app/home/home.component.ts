@@ -26,8 +26,8 @@ export class HomeComponent implements OnInit {
     {
       name: 'Dragunov',
       imgURL:
-      'https://static.wikia.nocookie.net/guns/images/1/15/SVD.jpg/revision/latest?cb=20190420101321',
-      price: 7000 ,
+        'https://static.wikia.nocookie.net/guns/images/1/15/SVD.jpg/revision/latest?cb=20190420101321',
+      price: 7000,
       status: false,
     },
   ];
